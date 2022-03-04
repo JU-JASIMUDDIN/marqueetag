@@ -1,0 +1,36 @@
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+/* all common css end */
+/* marque part start  */
+.marquee_item_one{
+    margin-top: 10px;
+    background: yellow;
+    padding: 10px;
+    overflow: auto;
+}
+/* .marquee_one_text{
+    background: yellow;
+    padding: 10px;
+} */
+.marquee_one_text h4{
+    color: red;
+    overflow: auto;
+}
+/* marque part end  */
